@@ -1,0 +1,12 @@
+table,tr,th,td{
+    border: 2px sienna;
+}
+
+img{
+    border: 2px solid brown;
+    box-shadow: 0 0 12px red;
+}
+body{
+    background-image: url('./download(1).jpg');
+    background-size: cover;
+}
