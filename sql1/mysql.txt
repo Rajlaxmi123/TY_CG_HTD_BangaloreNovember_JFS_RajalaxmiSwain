@@ -1,0 +1,17 @@
+
+
+ create table users_info(userid int(10) not null,
+     username varchar(25) default null,
+     ename varchar(25) default null,
+     password varchar(25) default null,
+     primary key (userid));
+
+
+
+create table users_info(userid number(10) not null,
+         username varchar(25) default null,
+          ename varchar(25) default null,
+          password varchar(25) default null,
+          primary key (userid));
+
+insert into users_info values(20196,'rajikk','raj_ikk','rutk');
