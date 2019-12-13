@@ -22,8 +22,8 @@ public class ContactDAOImpl implements ContactDAO{
 	
 	FileReader reader ;
 	Scanner sc = new Scanner(System.in);
-	Connection  conn =  null;
-	Properties prop = null;
+	Connection  conn ;
+	Properties prop ;
 	
 	
 	
