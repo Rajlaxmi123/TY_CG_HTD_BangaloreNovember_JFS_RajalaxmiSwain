@@ -20,7 +20,7 @@ import com.mysql.jdbc.Driver;
 public class ContactDAOImpl implements ContactDAO{
 
 	
-	FileReader reader = null;
+	FileReader reader ;
 	Scanner sc = new Scanner(System.in);
 	Connection  conn =  null;
 	Properties prop = null;
